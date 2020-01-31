@@ -1,9 +1,9 @@
 <html>
 	<head>
-		<title> Untitled </title>
+		<title> Variables </title>
 	</head>
 	<body>
-	<h1> This is the body <h1>
+	<h1> Variables <h1>
 	<?php
 	$name = "Kleiver ";
 	$age = 22;

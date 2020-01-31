@@ -1,9 +1,9 @@
 <html>
 	<head>
-		<title> Untitled </title>
+		<title> Hello world </title>
 	</head>
 	<body>
-	<h1> This is the body <h1>
+	<h1> HelloWorld <h1>
 	<?php
 	//phpinfo();
 	echo "Hello World"

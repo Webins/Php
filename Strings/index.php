@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title> Untitled </title>
+		<title> Strings </title>
 	</head>
 	<body>
 	<h1> Strings: <h1>
