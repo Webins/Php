@@ -1,0 +1,82 @@
+.form__label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+  }
+  
+  .form__input {
+    font-family: 'Roboto', sans-serif;
+    color:#333;
+    font-size: 1.2rem;
+    padding: 1.5rem 0rem 0 2.5remem;
+    border-radius: 0.2rem;
+    background-color:rgb(255, 255, 255);
+    display: block;
+    display: inline;
+    transition: all 0.3s;
+  }
+  .form__group{
+    margin-top: 3rem;
+  }
+  .form__group h1{
+    margin-top: 3rem;
+     
+      color: whitesmoke;
+  }
+  .form__input:placeholder-shown + .form__label {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4rem);
+  }
+  
+  .emphasize {
+    display: inline-block;
+    line-height: 1;
+    padding: .3rem;
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10px;
+    font-weight: bold;
+    background: #257C9E;
+  }
+  .emphasize-red {
+    display: inline-block;
+    line-height: 1;
+    padding: .3rem;
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10px;
+    font-weight: bold;
+    background: #CC0000;
+  }
+  .emphasize_e {
+    display: block;
+    width: 20%;
+    line-height: 1;
+    padding: .3rem;
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+    border-radius: 10px;
+    font-weight: bold;
+    background: #257C9E;
+  }
+  .form__input{
+    margin-top: 2rem;
+  }
+  .btn{
+      display: inline;
+  }
+
+  footer{
+    margin-top: 46vh;
+  }
+

@@ -1,0 +1,23 @@
+.container{
+    height: 53rem;
+    width: 100%;
+}
+
+.table{
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.td{
+    font-size: 1em;
+}
+.element{
+    width: 10%;
+}
+.td-msg{
+    height: 8rem;
+}
+

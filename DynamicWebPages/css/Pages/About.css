@@ -1,0 +1,15 @@
+.about_paragraph{
+    margin: 1rem 2rem 1rem 2rem;
+    font-weight: bold;
+}
+.about_img{
+    height: 11rem;
+    width: 100%;
+    justify-content: flex-end;   
+    display: flex;
+    margin-left: -2rem;
+}
+
+.about_img img{
+    width: 8rem;
+}

@@ -1,5 +1,5 @@
 <?php
 session_start();
-$_SESSION['w3resource']='The largest online tutorial';
-echo $_SESSION['w3resource'];
+$_SESSION['Name']='Name of session';
+echo $_SESSION['Name'];
 ?>
