@@ -1,7 +1,7 @@
 <?php
 $GLOBALS["dsn"] =  "mysql:host=127.0.0.1;dbname=cms";
-$GLOBALS["username"] = "webins";
-$GLOBALS["password"] = "mi perro es coke";
+$GLOBALS["username"] = "wherever";
+$GLOBALS["password"] = "password";
 
 class Comment
 {
