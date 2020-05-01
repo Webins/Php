@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'latoregular';
+    src: url('../assets/fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'FredokaOne';
+    src: url('../assets/fonts/FredokaOne-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html{
+  font-family: 'latoregular' !important;
+}
+html, body{ height:100%; margin:0; }
+body{
+  display:flex; 
+  flex-direction:column; 
+}
+p,h1,h2,h3,h4,h5,h6{
+  margin:0;
+  padding:0;
+}
+h1{
+  font-size: 2vw; 
+}
+h2{
+  font-size: 1.6vw;
+}
+h3{
+  font-size: 1.3vw;
+}
+p{
+  font-size: 2vmin;
+}
+.nav-main{
+  max-height: 10vw;
+  height: 100%;
+}
+.text-first{
+  color: #929FBA;
+}
+.bg-first{
+  background:#DDDDDD;
+}
+
+.background_section{
+  background: #757F95;
+}
+
+.color-opt{
+  color: #E3e2df;
+}
+.bg-opt{
+  background-color: #E3e2df;
+}
+.bg-main{
+  background: #5d001e;
+}
+.main-color{
+  color:#5d001e;
+}
+.secondary-color{
+  color:#EE4c7c;
+}
+.bg-second{
+  background:#EE4c7c!important;
+}
+.third-color{
+  color:#9A1750!important;
+}
+.bg-third{
+  background:#9A1750;
+}
+.fourth-color{
+  color:#E3afbc;
+}
+.bg-fourth{
+  background:#E3afbc;
+}
+
+.font-f{
+  font-family: 'FredokaOne' !important;
+}
+.bg-table{
+  background : #282C2F;
+}
+
+a:hover {
+  text-decoration: none;
+  animation-name: shadow;
+  animation-duration: 1s;
+  color: white;
+  animation-fill-mode: forwards;
+}
+
+
+/* keyframes */
+@keyframes shadow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*FOOTER*/
+
+footer{
+  border-top: 40px solid #282C2F;
+  border-bottom: 40px solid #282C2F;
+  background:#282C2F;
+  margin-top:auto; 
+}
+
+
+.container-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+ 
+

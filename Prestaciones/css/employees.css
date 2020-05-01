@@ -1,0 +1,31 @@
+.td-table{
+    vertical-align: baseline!important;
+}
+
+.number{
+    width: 5%;
+}
+.name{
+    width: 15%;
+}
+.last_name{
+    width: 15%;
+}
+.ci{
+    width: 15%;
+}
+.date_in{
+    width: 15%;
+}
+
+.date_out{
+    width: 15%;
+}
+
+.horario{
+    width: 10%;
+}
+.profesion{
+    width: 10%;
+}
+

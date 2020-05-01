@@ -216,7 +216,7 @@ $dsn = "mysql:host=localhost;dbname=form_php";
         }catch(PDOException $e){
             echo "Connection-Failed: " . $e->getMessage();
         }
-            $sql = "DELETE FROM employees WHERE emp_id=:id";
+            $sql = "DELETE * FROM employees WHERE emp_id=:id";
              $stmt = $connect->prepare($sql);
              $stmt->bindParam(":id", $id);
              $exec = $stmt->execute();
